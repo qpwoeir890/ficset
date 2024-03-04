@@ -1,0 +1,149 @@
+#category .card-wrapper {
+  background: transparent;
+}
+
+#category .card-wrapper h2 {
+  margin-bottom: 20px;
+}
+
+#category .card-wrapper .card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
+  column-gap: 15px;
+}
+
+#category .card {
+  background-color: #fff;
+  width: 135px;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+#category .card:hover {
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+#category .card img {
+  width: 135px;
+  margin-top: 8px;
+}
+
+#category .card .card-body {
+  padding: 0 10px;
+}
+
+#category .card .card-body a,
+p {
+  text-align: center;
+  font-size: 14px;
+  color: #000000;
+  font-weight: 539;
+  text-decoration: none;
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  #category .card {
+    width: 160px;
+  }
+  #category .card-wrapper .card-container {
+    row-gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #category .card {
+    width: 150px;
+  }
+
+  #category .card img {
+    width: 150px;
+    margin-top: 18px;
+  }
+
+  #category .card-wrapper .card-container {
+    gap: 20px;
+    justify-items: center;
+  }
+}
+
+.sections-2 {
+  margin: 56px 0px 0px 350px;
+}
+
+.sections-2__box-1 {
+  display: flex;
+  margin: 40px 0px 0px 0px;
+}
+
+.text-4 {
+  font-family: Nuckle;
+  font-size: 14px;
+  font-weight: 539;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.sections-__box-1__card-1 {
+  width: 293px;
+  height: 290px;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  margin: 0px 0px 0px 20px;
+}
+
+.sections-__box-1__card-2 {
+  width: 293px;
+  height: 290px;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  /* margin: 0px 0px 0px 20px; */
+}
+
+.img-1 {
+  margin: 22px 0px 0px 0px;
+}
+
+.text-2 {
+  margin: 10px 0px 0px 0px;
+  font-family: Nuckle;
+  font-size: 16px;
+  font-weight: 539;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+.text-3 {
+  font-family: Nuckle;
+  font-size: 16px;
+  font-weight: 539;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #6c757d;
+  margin: 10px 0px 0px 0px;
+}
+
+.img-2 {
+  width: 208.71px;
+  height: 168.57px;
+  margin: 22px 0px 0px 0px;
+}
+
+.text-5 {
+  margin: 10px 0px 27px 0px;
+  font-family: Nuckle;
+  font-size: 16px;
+  font-weight: 539;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
